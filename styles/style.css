@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    /* background-color: black; */
+    background-color: black;
 }
 /* navbar styling start from here
  */
@@ -292,7 +292,7 @@ a{
 
 .bmi-form div {
     background: grey; */
-}
+/* } */
 
 table{
     border: 1px solid red;
@@ -332,6 +332,110 @@ th td{
     font-size: 16px;
 }
 /* BMI styling end here */
+
+/* BMI Title */
+.bmi-tittle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bmi-tittle h1 {
+    color: #f04a33;
+}
+
+.bmi-tittle p {
+    color: #999;
+    font-size: 1rem;
+}
+
+/* Main Form Section */
+.bmi-form-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* BMI Chart Table */
+.bmi-form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 20px;
+}
+
+.bmi-form th, .bmi-form td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+}
+
+.bmi-form th {
+    background-color: #333;
+    color: #f04a33;
+}
+
+.bmi-form td {
+    background-color: #444;
+}
+
+.bmi-form h4 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+/* Form Styling */
+.form-container {
+    max-width: 50%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 48%;
+    padding: 10px;
+    background-color: #2e2e2e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+select {
+    color: #999;
+}
+
+/* Calculate Button */
+.Calculate-btn {
+    width: 100%;
+    background-color: #f04a33;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Calculate-btn:hover {
+    background-color: #d6402b;
+}
+
+
 /* trainer part start */
 .team-viwer{
     text-align: center;
@@ -339,9 +443,9 @@ th td{
     margin: 10px ;
     width: 671px;
 }
-.trainer-card-container{
+.training-img-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
@@ -350,8 +454,39 @@ th td{
 .trainer-card{
     border-radius: 10px;
     overflow: hidden;
-    
+    width: 100%;
+    height: 300px;
+}
+.trainer-card img{
+    width: 100%;
+    height: 100%;
 }
 
 /* trainer part end  */
    /* main section end from here */
+
+
+   /* Responsive Design */
+@media (max-width: 768px) {
+    .bmi-form-main {
+        flex-direction: column;
+    }
+
+    .bmi-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bmi-form table {
+        margin-bottom: 20px;
+    }
+
+    .input-row {
+        flex-direction: column;
+    }
+
+    input, select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
