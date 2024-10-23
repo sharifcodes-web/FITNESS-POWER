@@ -1,0 +1,30 @@
+@media screen and (max-width:992px) {
+    .navbar-main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-main>.navbar-child-2{
+        margin-top:20px;
+    }
+    .banner-section{
+
+    }
+
+    
+}
+@media screen and (max-width:576px) {
+    .nav-ham-menu{
+        display: block;
+    }
+    .navbar-main>.navbar-child-2{
+        display: none;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-section-card{
+        width: 100%;
+    }
+.features{
+    flex-wrap: wrap;
+}

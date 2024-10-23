@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+/* navbar styling start from here
+ */
+.navbar-main{
+    /* position: absolute; */
+    max-width: 1060px;
+    height: 46px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* color: white; */
+    border: 2px solid green;
+    margin-top:30px; ;
+}
+.navbar-child-1{
+    color: rgba(229, 81, 13, 0.966);
+    font-weight: 800px;
+    line-height: 120%;
+    letter-spacing:0% ;
+    text-align: left;
+}
+.nav-child-2{
+    position: static;
+    /* width: 465px; */
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5px;
+    margin-left: auto;
+}
+.nav-ham-menu{
+    color: white;
+    display: none;
+}
+.navbar-child-2 span{
+    background-color: #ea452c;
+    border-radius: 60px;
+    padding: 0 10px;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+
+}
+/*  navbar styling end here */
+/* banner style start from here */
+.banner-title{
+    max-width: 100%;
+    font-size: larger;
+    height: auto;
+}
+.banner-title h1{
+    color: white; 
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 0;
+}
+.banner-title p{
+    color: rgba(87, 84, 84, 0.693);
+    /* padding: 10px; */
+    font-size: larger;
+    font-weight:1000;
+    margin-left: 0 ;
+}
+.banner-btn-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+.banner-btn-1{
+    background-color:rgba(229, 81, 13, 0.966);
+    padding: 10px;
+    border-radius: 10px;
+}
+.banner-btn-2{
+    background-color: rgba(229, 81, 13, 0.966);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner-section{
+    border: 1px solid red;
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.banner-section-card{
+    width:50%;
+    position: relative;
+}
+.banner-section-card img{
+    width: auto;
+    max-height: 400px;
+}
+.materials{
+    background-color:rgba(0, 0, 0, 0.246);
+    color: white;
+    width:max-content ;
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 21%;
+    left: 60%;
+    color: rgb(220, 210, 210);
+    
+}
+.material-2{
+    position:absolute ;
+    top: 80%;
+    left:15% ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.214);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* span{
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+} */
+ /* banner style end here */ 
+   /* ------------------------------------------------ */
+   /* main section start from here */
+  
+
+.features{
+    border: 1px solid green;
+    max-width: 1060px;
+    margin: auto;
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.features-tittle{
+    text-align: center;
+    padding: 20px;
+    max-width: 1060px;
+    margin: 10px auto 0;
+    color: white;
+
+}
+.features-tittle p{
+    color: grey;
+}
+.features div img{
+    height: 200px;
+    border-radius: 50%;
+}
+.features div h4 {
+ color: white;
+ font-size: large;
+ text-align: center;
+}
+.features p{
+    color: rgba(85, 82, 82, 0.895);
+}
+   /* main section end from here */
