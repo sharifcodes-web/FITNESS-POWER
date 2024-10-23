@@ -136,6 +136,11 @@ a{
     border-radius: 10px;
     padding: 10px;
 }
+.material-2 img{
+    position: absolute;
+    top: 35px;
+    left: -40px;
+}
 
 
 .banner-title span{
@@ -331,6 +336,9 @@ th {
 .bmi-calculate-title h4 {
     margin-bottom: 20px;
     font-size: 1.5rem;
+}
+.bmi-h4{
+    color: white;
 }
 
 .bmi-calculate-title p {
