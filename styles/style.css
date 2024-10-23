@@ -237,6 +237,20 @@ a{
     color: white;
     padding: 10px;
 }
+.training-img-card{
+    max-width: 1060px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+    ;
+}
+.training-img-card img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 4px 4px;
+    color: rgba(255, 255, 255, 0.363);
+}
 
 
 
