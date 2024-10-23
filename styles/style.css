@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    background-color: black;
+    /* background-color: black; */
 }
 /* navbar styling start from here
  */
@@ -159,7 +159,7 @@ a{
 .features-tittle{
     text-align: center;
     padding: 20px;
-    max-width: 1060px;
+    max-width: 671px;
     margin: 10px auto 0;
     color: white;
 
@@ -183,7 +183,7 @@ a{
 .extra-running{
     border: 1px solid yellow;
     max-width: 1060px;
-    margin: auto;
+    margin: 30px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -193,7 +193,6 @@ a{
 }
 .extra-running-tittle{
     margin-left: 10px;
-    background-color: red;
     
 }
 .extra-running-tittle h1{
@@ -228,6 +227,8 @@ a{
 /* training part start here  */
 .training-tittle{
     text-align: center;
+    width: 671px;
+    margin: auto;
 }
 .training-tittle h1{
     color: white;
@@ -251,15 +252,84 @@ a{
     box-shadow: 5px 3px 4px 4px;
     color: rgba(255, 255, 255, 0.363);
 }
-
-
-
-
-
-
-
-
-
-
 /* training part end here */
+/* bmi STYLING start from  here */
+.bmi-main{
+    background:rgb(53, 52, 52) ;
+}
+.bmi-tittle{
+    text-align: center;
+    padding: 20px;
+    width: 671px;
+    margin: 20px auto;
+}
+.bmi-tittle h1{
+    color: white;
+    font-size: larger;
+}
+.bmi-tittle p{
+    color:grey;
+    font-size: larger;
+}
+.bmi-form{
+    border: 2px solid green;
+    max-width: 1060px;
+    margin: auto;
+    /* background: grey; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+/* .bmi-form-main{
+    background: grey;
+}
+.bmi-form div h4 {
+    background: grey;
+}
+.bmi-form div p {
+    background: grey;
+}
+
+.bmi-form div {
+    background: grey; */
+}
+
+table{
+    border: 1px solid red;
+    /* width: 100%;
+    border-collapse:collapse ; */
+
+}
+th td{
+    /* border: 1px solid gray; */
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    /* background-color: rgb(109, 107, 105); */
+    border-radius: 10px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.input-row input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border:none;
+}
+.calculate-btn{
+    background-color: chocolate;
+    padding: 12px 20px ;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+/* BMI styling end here */
    /* main section end from here */
