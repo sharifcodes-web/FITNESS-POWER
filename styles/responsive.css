@@ -26,5 +26,5 @@
         width: 100%;
     }
 .features{
-    flex-wrap: wrap;
+    flex-direction: column;
 }
