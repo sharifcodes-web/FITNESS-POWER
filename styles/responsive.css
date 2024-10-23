@@ -25,6 +25,10 @@
     .banner-section-card{
         width: 100%;
     }
-.features{
-    flex-direction: column;
+    .features{
+         flex-direction: column;
+    }
+    .extra-running{
+        flex-direction: column;
+    }
 }

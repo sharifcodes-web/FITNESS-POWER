@@ -225,4 +225,27 @@ a{
     width: 100%;
 }
 /* extra running part end here */
+/* training part start here  */
+.training-tittle{
+    text-align: center;
+}
+.training-tittle h1{
+    color: white;
+    padding: 15px;
+}
+.training-tittle p{
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* training part end here */
    /* main section end from here */
